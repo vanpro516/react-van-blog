@@ -1,0 +1,23 @@
+/* 主色 */
+.secondary-color {
+  background-color: #272727;
+}
+
+/* 按钮默认色 */
+.primary-btn {
+  background-color: #19aeae;
+  border: 0.06rem solid #19aeae;
+  color: #ffffff;
+  outline: none;
+}
+.primary-font-color {
+  color: #ffffff;
+}
+
+/* 按钮默认hover样式 */
+.primary-hover {
+  transition: all 0.2s !important;
+}
+.primary-hover:hover {
+  background-color: #19aeae !important;
+}

@@ -1,0 +1,72 @@
+@import './style/skin/primary.css';
+@import './style/layout.css';
+div {
+  padding: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-y: overlay;
+  width: 100% !important;
+}
+
+input {
+  background: none;
+  outline: none;
+  border: 0px;
+  border-radius: 0;
+}
+
+div,
+input {
+  box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none !important;
+}
+
+html {
+  background-color: #0b0a06;
+}
+
+.common-hover {
+  transition: all 0.2s !important;
+}
+.common-hover:hover {
+  /* background-color: rgb(180, 180, 0); */
+  background-color: rgb(97, 147, 187) !important;
+  /* color: rgb(88, 88, 88); */
+}
+
+/* 副色1 */
+.theme-color-1 {
+  background-color: rgb(19, 19, 26);
+}
+/* 副色2 */
+.theme-color-2 {
+  background-color: rgb(69, 69, 88) !important;
+}
+/* 按钮色 */
+.theme-color-btn {
+  background-color: rgb(97, 147, 187);
+}
+/* 字体亮色 */
+.theme-color-font {
+  color: rgb(97, 147, 187);
+}
